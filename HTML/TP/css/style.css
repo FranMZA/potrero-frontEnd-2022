@@ -12,15 +12,16 @@ body {
 }
 
 header {
-    background-color: darkgreen;
-    margin-top: -20%;
-    padding-top: 20%;
+    display: block;
+    background-color: #111;
     height: fit-content;
+    margin: 0 1%;
 }
 
 nav {
-    background-color: cornflowerblue;
-    margin: 1% 0;
+    display: block;
+    background-color: #999;
+    margin: 0% auto 0;
 }
 
 section {
@@ -39,14 +40,16 @@ aside {
 
 footer {
     clear: both;
+    position: relative;
+    bottom: 0%;
+    right: 0%;
     background-color: lightgrey;
     margin-bottom: -50vh;
     padding: 2%;
 }
 
 h1 {
-    color: lightcyan;
-    background-color: darkgreen;
+    color: lightgreen;
     text-align: center;
     font-size: xxx-large;
     font-weight: bolder;
@@ -161,6 +164,39 @@ table {
     right: 5vw;
     bottom: 15vh;
 }
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 auto;
+    overflow: hidden;
+}
+
+li.navbar {
+    float: left;
+    margin: auto 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: olivedrab;
+}
+
+.nav_container {
+    max-width: 2000px;
+    margin: auto;
+}
+
+/*.nav_item {
+
+}*/
 
 #gulashImg {
     width: 100%;
